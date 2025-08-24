@@ -44,7 +44,7 @@ signup-form-validation/
 ## 🛠️ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/signup-form-validation.git
+   git clone https://github.com/amanprasad-07/signup-form.git
 
 2.Navigate into the project:
     cd signup-form-validation
