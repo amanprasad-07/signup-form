@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Body styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #e2ebf9);
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container */
+.card {
+  border: none;
+  border-radius: 20px;
+  max-width: 650px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px #00000014; /* soft shadow */
+}
+
+/* Card body spacing */
+.card-body {
+  padding: 40px;
+}
+
+/* Heading */
+h3 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444444;
+}
+
+/* Input fields */
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #cccccc;
+  padding: 12px 15px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 4px #cfe2f9;
+}
+
+/* Checkbox */
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-label {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Error messages */
+.invalid-feedback {
+  font-size: 13px;
+  color: #e74c3c;
+}
+
+/* Submit button */
+.btn-primary {
+  background: #4a90e2;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: #3a7bd5;
+  box-shadow: 0px 6px 12px #3a7bd54d;
+  transform: translateY(-2px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 25px;
+  }
+}
